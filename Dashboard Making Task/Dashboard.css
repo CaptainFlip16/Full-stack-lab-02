@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f8f9fd;
+    color: #2c3e50;
+}
+
+#sidebar {
+    min-width: 260px;
+    max-width: 260px;
+    min-height: 100vh;
+}
+
+.brand-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #00a15d;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 22px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-title {
+    font-size: 24px;
+    font-weight: 800;
+    color: #1b2559;
+}
+
+.sidebar-menu {
+    padding: 10px 0;
+}
+
+.menu-item a {
+    padding: 14px 28px;
+    color: #8c97ac;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.menu-item a:hover,
+.menu-item.active > a {
+    color: #00a15d;
+}
+
+.submenu {
+    padding-left: 55px;
+}
+
+.submenu li a {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #8c97ac;
+    display: block;
+    font-weight: 500;
+}
+
+.submenu li a.active-sub {
+    color: #00a15d;
+    font-weight: 700;
+}
+
+.profile-img {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+}
+
+.search-box input {
+    height: 42px;
+    width: 240px;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 18px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.header-title {
+    color: #2b3674;
+}
+
+.bg-teal {
+    background-color: #10875b;
+}
+
+.bg-coral {
+    background-color: #ff6b5b;
+}
+
+.bar {
+    width: 8px;
+    border-radius: 4px;
+}
+
+.chart-svg {
+    height: 45px;
+}
+
+.donut-small {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: conic-gradient(#00a15d 0% 66%, #e9ecef 66% 100%);
+}
+
+.donut-small::before {
+    content: "";
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.donut-small span {
+    position: relative;
+    z-index: 2;
+    color: #1b2559;
+}
+
+.main-donut-chart {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: conic-gradient(#00a15d 0% 45%, #ff3e6c 45% 70%, #d1d5db 70% 100%);
+}
+
+.inner-circle {
+    width: 100px;
+    height: 100px;
+}
+
+.progress-custom {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+
+.fs-8 {
+    font-size: 0.75rem;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
